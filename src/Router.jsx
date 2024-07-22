@@ -1,14 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import HomeOne from "./components/HomeOne/index.jsx";
-import HomeTwo from "./components/HomeTwo/index.jsx";
-import HomeThree from "./components/HomeThree/index.jsx";
-import HomeFour from "./components/HomeFour/index.jsx";
-import HomeFive from "./components/HomeFive/index.jsx";
-import HomeSix from "./components/HomeSix/index.jsx";
-import HomeSeven from "./components/HomeSeven/index.jsx";
-import HomeEight from "./components/HomeEight/index.jsx";
+
 import HomeDark from "./components/HomeDark/index.jsx";
-import HomeRtl from "./components/HomeRtl/index.jsx";
 import News from "./components/News/index.jsx";
 import SingleNews from "./components/News/SingleNews.jsx";
 import Service from "./components/Service/index.jsx";
@@ -29,42 +21,11 @@ const router = createBrowserRouter([
         index: true,
         element: <HomeDark />,
       },
-      // {
-      //   path: "/home-two",
-      //   element: <HomeTwo />,
-      // },
-      // {
-      //   path: "/home-three",
-      //   element: <HomeThree />,
-      // },
-      // {
-      //   path: "/home-four",
-      //   element: <HomeFour />,
-      // },
-      // {
-      //   path: "/home-five",
-      //   element: <HomeFive />,
-      // },
-      // {
-      //   path: "/home-six",
-      //   element: <HomeSix />,
-      // },
-      // {
-      //   path: "/home-seven",
-      //   element: <HomeSeven />,
-      // },
-      // {
-      //   path: "/home-eight",
-      //   element: <HomeEight />,
-      // },
       {
         path: "/home-dark",
         element: <HomeDark />,
       },
-      // {
-      //   path: "/home-rtl",
-      //   element: <HomeRtl />,
-      // },
+
       {
         path: "/news",
         element: <News />,
@@ -85,22 +46,22 @@ const router = createBrowserRouter([
         path: "/contact",
         element: <Contact />,
       },
-      // {
-      //   path: "/error",
-      //   element: <Error />,
-      // },
-      // {
-      //   path: "/about-us-another",
-      //   element: <AboutUsTwo />,
-      // },
-      // {
-      //   path: "/shops",
-      //   element: <Shops />,
-      // },
-      // {
-      //   path: "/shops/shop-details",
-      //   element: <ShopDetails />,
-      // },
+      {
+        path: "/error",
+        element: <Error />,
+      },
+      {
+        path: "/about-us-another",
+        element: <AboutUsTwo />,
+      },
+      {
+        path: "/shops",
+        element: <Shops />,
+      },
+      {
+        path: "/shops/shop-details",
+        element: <ShopDetails />,
+      },
       {
         path: "*",
         element: <Error />,
