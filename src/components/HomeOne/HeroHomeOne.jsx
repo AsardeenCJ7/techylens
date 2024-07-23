@@ -19,11 +19,13 @@ function HeroHomeOne({ className }) {
                 </h1>
                 <p>
                   At TechyLens, we believe in shaping the future by providing
-                  top-notch professional courses that cater to the needs of
-                  today’s competitive world. Whether you're looking to advance
-                  your career, start a freelancing journey, or dive into the
-                  world of software development and digital marketing, we have
-                  something for everyone.
+                  top-notch professional courses and comprehensive solutions
+                  that cater to the needs of today’s competitive world. Whether
+                  you're looking to advance your career, start a freelancing
+                  journey, or dive into the world of software development and
+                  digital marketing, we have something for everyone. Explore our
+                  wide range of services designed to empower innovation and
+                  growth under one umbrella.
                 </p>
                 <ul>
                   <li>

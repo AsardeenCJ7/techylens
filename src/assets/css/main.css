@@ -8314,3 +8314,12 @@ blockquote cite {
   right: 100px;
   animation: linear 60s animationFramesTen infinite;
 }
+
+/* services home one*/
+
+.title-offer {
+  color: #2b70fa;
+  font-size: 30px;
+  text-transform: capitalize;
+  text-shadow: #007bb6;
+}
